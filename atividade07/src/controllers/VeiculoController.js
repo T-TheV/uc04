@@ -1,6 +1,6 @@
-const { Veiculo } = require("../models/Veiculo");
-const { Carro } = require("../models/Carro");
-const { Moto } = require("../models/Moto");
+const { Veiculo } = require("../models/Veiculo.js");
+const { Carro } = require("../models/Carro.js");
+const { Moto } = require("../models/Moto.js");
 const { bancoVeiculos } = require("../config/banco.js");
 
 class VeiculoController {
